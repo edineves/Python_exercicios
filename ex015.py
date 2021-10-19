@@ -1,0 +1,9 @@
+    #ALUGUEL DE VEICULOS
+    #Calcule o aluguel de um automovel considerando os valores abaixo, em seguinda imprima o valor a ser pago pelo usuario.
+
+    diaria = 60
+    km = 0.15
+    d = float(input('Digite a distancia percorrida com o veiculo '))
+    t = int(input('Quantos dias voce utlizou o veiculo '))
+    valor = ((d * km) + (t * diaria))
+    print(f' O valor a ser pago sera de R$ { valor }')

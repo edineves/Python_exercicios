@@ -1,0 +1,15 @@
+#CONVERSOR DE BASES NUMERICA
+# Digite um numero e peça para o computardor converta as bases em Bin, Oc, Hex e Ded.
+n = int(input('Digite um numero'))
+print(f'Voce digitou o numero { n }, escolha a opção para converter:'"""
+        [ 1 ] Binário
+        [ 2 ] Octal 
+        [ 3 ] Hexal """)
+opcao = int(input('Digite sua opcao'))
+if opcao == 1:
+    print(f'o numero digitado foi { n } e em Binario é { bin(n)}')
+if opcao == 2:
+    print(f'o numero digitado foi { n } e em Binario é { oct(n)}')
+if opcao == 3:
+    print(f'o numero digitado foi { n } e em Binario é { hex(n)}')
+print(' FIM ')

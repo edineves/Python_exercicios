@@ -1,0 +1,8 @@
+#CATETO E HIPOTENUSA
+# Calcuque o comprimento do cateto oposto, adjacente de um triangulo
+import math
+from math import hypot
+co = float(input('Digite o coseno '))
+ca = float(input('Digite cateto'))
+hi = math.hypot(co,ca)
+print(f'a hipotenusa eh { hi:.3f}')

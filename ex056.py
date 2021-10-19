@@ -1,0 +1,3 @@
+#ANALISE DOS DADOS
+#Faça um programa que analise dos dados do usuario e onde o usuario devera digitar o nome, sexo, ano de nascimentoa=
+n=int(input('Digite um numero ')
